@@ -1,5 +1,5 @@
 var once = function(fn) {
-         let called = false ;
+         let called = false ; // flag type ek bar fuction chalega bus
 
     return function(...args){
         if(!called)
