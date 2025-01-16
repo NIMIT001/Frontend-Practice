@@ -1,0 +1,40 @@
+{
+  "name": "react-ts",
+  "version": "0.0.0",
+  "private": true,
+  "dependencies": {
+    "@babel/runtime": "7.19.0",
+    "@codemirror/lang-javascript": "^6.0.2",
+    "@codemirror/theme-one-dark": "6.0.0",
+    "@codemirror/view": "6.2.2",
+    "@types/react": "18.0.8",
+    "@types/react-dom": "18.0.2",
+    "@uiw/codemirror-theme-sublime": "^4.12.1",
+    "@uiw/react-codemirror": "4.12.1",
+    "codemirror": "6.65.7",
+    "react": "18.1.0",
+    "react-dom": "18.1.0"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  },
+  "devDependencies": {
+    "@babel/plugin-proposal-private-property-in-object": "^7.21.11",
+    "react-scripts": "latest"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}
